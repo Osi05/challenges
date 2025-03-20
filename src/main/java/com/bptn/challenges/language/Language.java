@@ -19,10 +19,17 @@ public class Language {
 	}
 	
 	//creating getInfo method
+	public void getInfo() {
+		System.out.println(name + " is spoken by " + speakersPopulation + " people mainly in " + regionsSpoken + ".\nThe language follows the word order: " + wordOrder + ".");
+	}
 	
 	
 	
 	public static void main(String[] args) {
+		
+		Language myLang = new Language("Nyu", 100000, "Asia", "verb-object-subject" );
+		
+		myLang.getInfo();
 		
 	}
 
