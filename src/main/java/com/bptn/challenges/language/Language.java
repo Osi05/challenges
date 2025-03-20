@@ -32,7 +32,16 @@ public class Language {
 		Mayan mayanLang = new Mayan("Ki'che'", 2330000);
 
 		mayanLang.getInfo();
-
+		
+		SinoTibetan nonCh = new SinoTibetan("Bur", 120000);
+		
+		SinoTibetan ch = new SinoTibetan("Mandarin Chinese", 1200000);
+		
+		nonCh.getInfo();
+		ch.getInfo();
+		
+		
+		
 	}
 
 }
