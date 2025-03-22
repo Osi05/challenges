@@ -7,9 +7,7 @@ public class Fortune {
 	// generateRandom method
 	public int generateRandom() {
 
-		int rand = (int) (Math.random() * 10);
-
-		return rand;
+		return (int) (Math.random() * 10);
 	}
 
 	public static void main(String[] args) {
@@ -29,7 +27,7 @@ public class Fortune {
 		} else if (fortune == 4) {
 			System.out.println("A conclusion is simply the place where you get tired of thinking.");
 		} else if (fortune == 5) {
-			System.out.println("No snowflake feels rfesponsible in an avalanche.");
+			System.out.println("No snowflake feels responsible in an avalanche.");
 		} else if (fortune == 6) {
 			System.out.println("He who laughs last is laughing at you.");
 		} else if (fortune == 7) {
